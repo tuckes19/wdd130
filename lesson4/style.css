@@ -1,0 +1,29 @@
+body {
+    background-color: #FCA6C9;
+}
+
+.pageContent {
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.pageContent ol{
+    text-align: left;
+}
+
+.coolFont {
+    font-family: Arial, sans-serif;
+}
+
+.white {
+    color: white
+}
+
+img {
+    width: 150px
+}
+
+.quotation {
+    margin: 10px 50px
+}
