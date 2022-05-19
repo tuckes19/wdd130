@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Bubblegum+Sans&family=Montserrat:wght@300&display=swap');
+
 #content {
     max-width:1600px;
     margin: 0 auto;
@@ -7,21 +9,30 @@ nav a {
     text-align: center;
     color: white;
     text-decoration: none;
+    font-family: "Montserrat";
+    padding: 35px;
 }
-#hero-msg h1, #hero-msg h4 {
+#hero-msg h1 {
     text-align: center;
+    font-family: "Bubblegum Sans";
 }
+#hero-msg h4 {
+    text-align: center;
+    font-family: "Montserrat";
 
+}
 #hero-img {
     width: 100%;
 }
 
 .button-box {
     text-align: center;
+    font-family: "Montserrat";
 }
 
 main section {
     text-align: center;
+    font-family: "Montserrat";
 }
 
 #background {
@@ -31,6 +42,9 @@ main section {
 
 body {
     background-color:#78c5d7;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
 }
 
 header {
@@ -46,6 +60,10 @@ nav a:hover {
     background-color:#144367;
     color:white;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 
 .book:hover, .join:hover {
@@ -55,14 +73,25 @@ nav a:hover {
 
 .msg {
     background-color:#144367;
+    line-height: 1.5em;
+    padding: 35px;
 }
 
 footer {
     background-color:#144367;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 
 .home-title {
     color: black;
+    font-family: "Bubblegum Sans";
+    font-size: 2em;
+    margin-top: 10px;
+}
+
+h2{
+    margin: 0;
 }
 
 h4 {
@@ -71,14 +100,19 @@ h4 {
 
 .msg h2 {
     color: white;
+    font-family: "Bubblegum Sans";
 }
 
 .msg p {
     color:white;
+    font-family: "Montserrat";
+    font-size: .8em;
+    padding: 35px;
 }
 
 footer h3 {
     color: white;
+    font-family: "Montserrat";
 }
 
 footer h3 a:hover {
@@ -97,6 +131,28 @@ footer a:hover {
 .logo {
     width: 80px;
 }
+
+#logo_link{
+    padding-top: 5px;
+}
+
 .icon {
     width: 80px;
+    padding-top: 10px;
+}
+
+footer .social img {
+padding-top: 15px;
+}
+
+.rivers-card, .camping-card, .rapids-card {
+    margin: 200px 0;
+}
+
+.card-img {
+    border: 10px solid black;
+}
+
+main section img {
+    box-sizing: border-box;
 }

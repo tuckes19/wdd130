@@ -1,0 +1,31 @@
+.container{
+    text-align: center;
+    width: 100%
+}
+.redrectangle{
+    margin:auto;
+    width: 40%;
+    background-color: red;
+    padding: 20px
+}
+
+.bluerectangle{
+    margin:auto;
+    width: 60%;
+    background-color: blue;
+    padding: 20px
+}
+
+.greenrectangle{
+    margin:auto;
+    width: 80%;
+    background-color: green;
+    padding: 20px
+}
+
+.leftsquare{
+    width: 20%
+    padding: 20%
+    background-color: black;
+    
+}
