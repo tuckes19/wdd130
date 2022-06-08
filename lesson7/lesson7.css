@@ -1,0 +1,13 @@
+.content1{
+    display: grid;
+    grid-template-columns: repeat (10, 1fr);
+    grid-template-rows: repeat (12, 1fr);
+}
+
+.green1{
+    background-color: green;
+    width: 100px;
+    height: 10px;
+    grid-column: 2/3;
+    grid-row: 12/13;
+}
