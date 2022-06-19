@@ -1,8 +1,31 @@
 @import url('https://fonts.googleapis.com/css2?family=Bubblegum+Sans&family=Montserrat:wght@300&display=swap');
 
+/* site */
+
+/* header */
+header {
+    background-color: #144367;
+    display: grid;
+    grid-template-columns: 150px auto;
+}
+
 #content {
     max-width:1600px;
     margin: 0 auto;
+}
+
+#background {
+    height: 725px;
+    background-color:#78c5d7;
+    grid-column: 1/11;
+    grid-row: 4/9;
+}
+
+body {
+    background-color:#78c5d7;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
 }
 
 nav a {
@@ -12,6 +35,40 @@ nav a {
     font-family: "Montserrat";
     padding: 35px;
 }
+
+/* footer */
+footer .social img {
+    padding-top: 15px;
+}
+
+footer h3 {
+    color: white;
+    font-family: "Montserrat";
+}
+
+footer h3 a:hover {
+    text-decoration: underline;
+}
+
+footer a {
+    color:white;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #fce172;
+}
+
+footer {
+    background-color:#144367;
+    padding: 25px 50px;
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/* Home Page */
 #hero-msg {
     grid-column: 2/3;
     grid-row: 1/2;
@@ -31,6 +88,11 @@ nav a {
     width: 100%;
 }
 
+.home-grid {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+}
+
 .button-box {
     text-align: center;
     font-family: "Montserrat";
@@ -39,26 +101,6 @@ nav a {
 main section {
     text-align: center;
     font-family: "Montserrat";
-}
-
-#background {
-    height: 725px;
-    background-color:#78c5d7;
-    grid-column: 1/11;
-    grid-row: 4/9;
-}
-
-body {
-    background-color:#78c5d7;
-    font-size: 22px;
-    margin: 0;
-    padding: 0;
-}
-
-header {
-    background-color: #144367;
-    display: grid;
-    grid-template-columns: 150px auto;
 }
 
 nav a:hover {
@@ -90,15 +132,6 @@ nav a:hover {
     box-shadow: 5px 5px 10px #6f7364;
 }
 
-footer {
-    background-color:#144367;
-    padding: 25px 50px;
-    margin-top: 200px;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-}
-
 .home-title {
     color: black;
     font-family: "Bubblegum Sans";
@@ -126,24 +159,6 @@ h4 {
     padding: 35px;
 }
 
-footer h3 {
-    color: white;
-    font-family: "Montserrat";
-}
-
-footer h3 a:hover {
-    text-decoration: underline;
-}
-
-footer a {
-    color:white;
-    text-decoration: none;
-}
-
-footer a:hover {
-    color: #fce172;
-}
-
 .logo {
     width: 80px;
 }
@@ -160,9 +175,6 @@ footer a:hover {
     padding-top: 10px;
 }
 
-footer .social img {
-padding-top: 15px;
-}
 
 .rivers-card, .camping-card, .rapids-card {
     margin: 200px 0;
@@ -193,11 +205,6 @@ nav {
     grid-column: 1/4;
     grid-row: 1/3;
     z-index: -1;
-}
-
-.home-grid {
-    display: grid;
-    grid-template-columns: 1fr, 1fr, 1fr, 1fr, 1fr, 1fr, 1fr, 1fr, 1fr, 1fr;
 }
 
 .card-img, .mountains {
@@ -234,7 +241,12 @@ nav {
     transform: scale(1.1);
 }
 
+/* FAQ Page */
 
+.faq-grid {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+}
 
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
