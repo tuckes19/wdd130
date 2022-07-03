@@ -36,6 +36,11 @@ nav a {
     padding: 35px;
 }
 
+nav a:hover {
+    background-color:#fce172;
+    color:black;
+}
+
 /* footer */
 footer .social img {
     padding-top: 15px;
@@ -103,10 +108,6 @@ main section {
     font-family: "Montserrat";
 }
 
-nav a:hover {
-    background-color:#fce172;
-    color:black;
-}
 
 .book, .join {
     background-color:#144367;
