@@ -7,6 +7,10 @@ main h1 {
     font-size: 40px;
 }
 
+main h1{
+    text-align: center;
+}
+
 /* Header */
 .afd_logo {
     width: 70%;
@@ -43,9 +47,6 @@ nav a:hover {
 }
 
 /*Home Page*/
-main h1{
-    text-align: center;
-}
 
 #home-grid1{
     font-family: "Kdam Thmor Pro";
